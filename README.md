@@ -8,7 +8,9 @@ Creacion de una pagina simple HTTP usando cowboy para su realización junto con 
 1. Instalacion de python en MySYS2 Con el comando:pacman -S mingw-w64-x86_64-python
 2. Instalacion del gestor de paquetes comando:pacman -S mingw-w64-x86_64-python-pip
 # Configuracion del python para usar pip
-1.
+1. Para el primer paso a tener en cuenta sera necesario modificar el bashrc con la finalidad de aceptar los comandos del pip.
+2. Ingresar el comando necesario comando: echo 'export PATH=/mingw64/bin:$PATH' >> ~/.bashrc
+source ~/.bashrc
 # Instalacion de asciinema
 1. pip install asciinema
 2. asciinema --version
